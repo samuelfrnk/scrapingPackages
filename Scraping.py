@@ -25,16 +25,14 @@ def get_package_descriptions(urls):
     return package_descriptions
 
 
-# Main function
 def main():
     search_word = input("Enter search word: ")
     pypi_urls = search_duckduckgo(search_word)
     package_descriptions = get_package_descriptions(pypi_urls)
 
-    # Filter descriptions or perform other checks to decide which packages to save
     saved_packages = [pkg for pkg in package_descriptions if "certain keyword" in pkg[1]]
 
-    # Save the list of packages
+
     with open("saved_packages.txt", "w") as f:
         for pkg in saved_packages:
             f.write(f"{pkg[0]}\n{pkg[1]}\n\n")
