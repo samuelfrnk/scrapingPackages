@@ -4,14 +4,14 @@ from bs4 import BeautifulSoup
 
 # Function to search DuckDuckGo and get PyPI URLs
 def search_duckduckgo(query):
-    url = f"https://duckduckgo.com/html/?q=site:pypi.org+{query}+explanation"
+    url = f"https://duckduckgo.com/html/?q=site:pypi.org+ {query} +explanation"
     response = requests.get(url)
     print(response.reason)
     print(response.text)
     soup = BeautifulSoup(response.text, 'html.parser')
     results = soup.find_all('a', class_='result__url')
     pypi_urls = [link['href'] for link in results if 'pypi.org/project/' in link['href']]
-    return pypi_urls[:20]  # Limit to first 20 results
+    return pypi_urls[:20]
 
 
 # Function to extract package descriptions from PyPI pages
