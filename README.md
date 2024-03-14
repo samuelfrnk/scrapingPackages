@@ -31,7 +31,7 @@ The tool will ask you to enter a search word. The search for packages is then be
 **site:pypi.org {your word} explanation**
 
 After entering your word you are asked if you want to filter the first 20 results. If yes you need to paste your openAI API key. 
-This will then ask chatGPT's API whether the description really is connected to the wished topic.
+This will then ask chatGPT's API (model gpt-3.5-turbo) whether the description really is connected to the wished topic.
 
 ---
 
