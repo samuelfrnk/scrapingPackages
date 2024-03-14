@@ -1,0 +1,50 @@
+LIME search results (Filter on: True, 8 results filtered out):
+ 
+URL: https://pypi.org/project/text-explainability/
+Description: 
+# LIME explanation (local feature importance) LIME (). explain (sample, model). scores # List of local rules, extracted from tree LocalTree (). explain (sample, model). rules. Global explanation: explain the whole dataset (e.g. train set, test set), and what they look like for the ground-truth or predicted labels.
+
+URL: https://pypi.org/project/lime/
+Description: 
+lime 0.2.0.1 pip install lime Copy PIP instructions. Latest version. Released: Jun 26, 2020 Local Interpretable Model-Agnostic Explanations for machine learning classifiers. Navigation. Project description ; Release history ; Download files ; Project links. Homepage Statistics. GitHub statistics: ...
+
+URL: https://pypi.org/project/dianna/
+Description: 
+Implements well-known XAI methods (LIME, RISE and Kernal SHAP) chosen by systematic and objective evaluation criteria; Supports the de-facto standard format for neural network models - ONNX. ... for example LIME: explanation = dianna. explain_text (model_path, text, 'LIME') dianna. visualization. highlight_text (explanation [labels. index ...
+
+URL: https://pypi.org/project/scikit-explain/
+Description: 
+For LIME, scikit-explain uses the code from the Faster-LIME method. scikit-explain can create the summary and dependence plots from the shap python package, but is adapted for multiple features and an easier user interface. It is also possible to plot attributions for a single example or summarized by model performance.
+
+URL: https://pypi.org/project/shapash/
+Description: 
+Use Lime to compute local explanation, Summarize-it with Shapash; Compile faster Lime and consistency of contributions; Use FastTreeSHAP or add contributions from another backend; Use Class Shapash Backend; Evaluating the quality of your explainability. Building confidence on explainability methods using Stability, Consistency and Compacity metrics
+
+URL: https://pypi.org/project/lime-stability/
+Description: 
+An explanation can be considered reliable only if unambiguous. Guided by this notion, we developed a pair of complementary indices to evaluate LIME stability: Variables Stability Index (VSI) and Coefficients Stability Index (CSI). The method creates repeated LIME explanations for the same data point to be explained.
+
+URL: https://pypi.org/project/lemon-explainer/
+Description: 
+More precisely, it shows the sensitivity of the feature: a small change in an important feature's value results in a relatively large change in prediction. It is similar to the popular LIME explanation technique, but is more faithful to the reference model, especially for larger datasets. Website ↗ Academic paper ↗. Installation. To install ...
+
+URL: https://pypi.org/project/omnixai/
+Description: 
+OmniXAI includes a rich family of explanation methods integrated in a unified interface, which supports multiple data types (tabular data, images, texts, time-series), multiple types of ML models (traditional ML in Scikit-learn and deep learning models in PyTorch/TensorFlow), and a range of diverse explaination methods including "model-specific ...
+
+URL: https://pypi.org/project/ferret-xai/
+Description: 
+Batched Inference for internal methods's approximation steps (e.g., LIME or SHAP) (v0.4.0) ⚙️ Simplified Task API to support NLI, Zero-Shot Text Classification, Language Modeling . ⚙️ Multi-sample explanation generation and evaluation; ⚙️ Support to explainers for seq2seq and autoregressive generation through inseq.
+
+URL: https://pypi.org/project/pytolemaic/
+Description: 
+Lime explanation: Provides Lime explanation for sample of interest. How to use: Get started by calling help() function (Recommended!): from pytolemaic import help supported_keys = help() # or help(key='basic usage') Example for performing all available analysis with PyTrust: from pytolemaic import PyTrust pytrust = PyTrust( model=estimator ...
+
+URL: https://pypi.org/project/Metabokiller/
+Description: 
+LIME The biochemical property-focused Metabokiller, by the virtue of its construction, offers interpretability by implementing Local Interpretable Model-agnostic Explanations (LIME). An algorithm that provides interpretability with respect to carcinogen-specific biochemical properties for each SMILES provided. To activate interpretability using ...
+
+URL: https://pypi.org/project/raiwidgets/
+Description: 
+The explanation functions of Interpret-Community accept both models and pipelines as input as long as the model or pipeline implements a predict or predict_proba function that conforms to the Scikit convention. If not compatible, you can wrap your model's prediction function into a wrapper function that transforms the output into the format ...
+
