@@ -1,7 +1,9 @@
 # Webscraper - Explainable AI packages
 
 This is an automated scraping tool dedicated to gather information about implementation of explainable AI algorithms 
-([see examples](info/Algorithms1.png)) 
+([see example algorithms](info/Algorithms1.png)). The main goal is to map Algorithms to their respective implementation 
+(python packages listed in [python package index](https://pypi.org/). 
+It performs a duckduckGo search request, filters with the chatGPT API and saves the results in a text file. 
 
 ## ChatGPT Filter 
 
