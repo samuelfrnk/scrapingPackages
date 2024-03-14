@@ -1,4 +1,4 @@
-# Webscraper
+# Webscraper - Explainable AI packages
 
 This is an automated scraping tool dedicated to gather information about implementation of explainable AI algorithms 
 ([see examples](info/Algorithms1.png)) 
