@@ -15,10 +15,16 @@ Python3 Scraping.py
 ---
 **NOTE**
 
-The tool will ask you to enter a search word. The search for packages is then being made using duckduckgo and the following query: 
+The tool will ask you to enter a search word. The search for packages is then being made using duckduckgo and the following query:  
+
 **site:pypi.org {your word} explanation**
 
+After entering your word you are asked if you want to filter the first 20 results. If yes you need to paste your openAI API key. 
+This will then ask chatGPT's API whether the description really is connected to the wished topic.
+
 ---
+
+The results are then being saved in a text file.
 
 
 ## Dependencies

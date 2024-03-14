@@ -1,42 +1,58 @@
 import requests
 from bs4 import BeautifulSoup
+from itertools import islice
+import urllib.parse
 
 
-# Function to search DuckDuckGo and get PyPI URLs
-def search_duckduckgo(query):
+def makeRequest(query):
     url = f"https://duckduckgo.com/html/?q=site:pypi.org+ {query} +explanation"
     response = requests.get(url)
-    print(response.reason)
-    print(response.text)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    results = soup.find_all('a', class_='result__url')
-    pypi_urls = [link['href'] for link in results if 'pypi.org/project/' in link['href']]
-    return pypi_urls[:20]
+    return BeautifulSoup(response.text, 'html.parser')
 
 
-# Function to extract package descriptions from PyPI pages
-def get_package_descriptions(urls):
-    package_descriptions = []
-    for url in urls:
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        description_tag = soup.find('div', class_='project-description')
-        if description_tag:
-            description = description_tag.text.strip()
-            package_descriptions.append((url, description))
-    return package_descriptions
+def filterURLs(urlsAndDescription):
+    # This method asks the User whether an additional filtering shall be performed
+    # And if yes perform a request to chatGPTs API
+    isFilterActive = input("Do you want to filter the URLs based on descriptions? (y/N): ")
+    openAPIToken = None
+    # If no filter is wished all URLS are returned
+    if isFilterActive == "y":
+        openAPIToken = input("Please enter your OpenAI API key: ")
+    else:
+        return urlsAndDescription
+
+
+
+
+
+def filterSoup(requestedSoup):
+    search_results = requestedSoup.find_all('div', class_='result__extras__url')
+    descriptions = requestedSoup.find_all('a', class_='result__snippet')
+    url_descriptions = []
+    # Zip the raw URLS/descriptions
+    zippedURLAndDescriptions = islice(zip(search_results, descriptions), 20)
+
+    for result, description in zippedURLAndDescriptions:
+        url = result.find('a').get('href')
+        parsed_url = urllib.parse.urlparse(url)
+        query_string = urllib.parse.parse_qs(parsed_url.query)
+        # url as fallback in case pypi url cannot be fetched
+        actual_url = query_string['uddg'][0] if 'uddg' in query_string else url
+        desc_text = description.text.strip()
+        url_descriptions.append((actual_url, desc_text))
+    return url_descriptions
+
+
+def performScraping(query):
+    requestedSoup = makeRequest(query)
+    urlsAndDescription = filterSoup(requestedSoup)
+    urlsAndDescriptionFiltered = filterURLs(urlsAndDescription)
 
 
 def main():
+    global openAPIToken
     search_word = input("Enter search word: ")
-    pypi_urls = search_duckduckgo(search_word)
-    package_descriptions = get_package_descriptions(pypi_urls)
-    print(pypi_urls)
-    saved_packages = [pkg for pkg in package_descriptions if True]
-
-    #with open("saved_packages.txt", "w") as f:
-    #    for pkg in saved_packages:
-    #        f.write(f"{pkg[0]}\n{pkg[1]}\n\n")
+    performScraping(search_word)
 
 
 if __name__ == "__main__":
