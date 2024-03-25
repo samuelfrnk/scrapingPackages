@@ -1,0 +1,58 @@
+SHAP  search results (Filter on: True, 6 results filtered out):
+
+URL: https://pypi.org/project/shap/
+Description:
+SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions (see papers for details and citations).
+
+URL: https://pypi.org/project/shap-app/
+Description:
+SHAP (SHapley Additive exPlanations) is a unified measure of feature importance that originates from game theory. It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions. In the context of machine learning, SHAP values provide a measure for the contribution of ...
+
+URL: https://pypi.org/project/corr-shap/
+Description:
+SHAP. SHAP (SHapley Additive exPlanations) is a method to explain the output of a machine learning model. It uses Shapley values from game theory to compute the contribution of each input feature to the output of the model. Therefore, it can help users understand the factors influencing a model's decision-making process.
+
+URL: https://pypi.org/project/auto-shap/
+Description:
+SHAP is a state-of-the-art technique for explaining model predictions. Model explanation can be valuable in many regards. For one, understanding how a model devised a prediction can engender trust. Conversely, it could inform us if our model is using features in a nonsensical or unrealistic way, potentially helping us to catch leakage issues.
+
+URL: https://pypi.org/project/scikit-explain/
+Description:
+For SHAP, scikit-explain uses the shap.Explainer method, which automatically determines the most appropriate Shapley value algorithm (see their docs). For LIME, scikit-explain uses the code from the Faster-LIME method. scikit-explain can create the summary and dependence plots from the shap python package, but is adapted for multiple features ...
+
+URL: https://pypi.org/project/alibi/
+Description:
+For SHAP support: mamba install-c conda-forge alibi shap Usage. The alibi explanation API takes inspiration from scikit-learn, consisting of distinct initialize, fit and explain steps. We will use the AnchorTabular explainer to illustrate the API:
+
+URL: https://pypi.org/project/shap2/
+Description:
+Project description. SHAP (SHapley Additive exPlanations) is a unified approach to explain the output of any machine learning model. SHAP connects game theory with local explanations, uniting several previous methods and representing the only possible consistent and locally accurate additive feature attribution method based on expectations.
+
+URL: https://pypi.org/project/omnixai/
+Description:
+OmniXAI includes a rich family of explanation methods integrated in a unified interface, which supports multiple data types (tabular data, images, texts, time-series), multiple types of ML models (traditional ML in Scikit-learn and deep learning models in PyTorch/TensorFlow), and a range of diverse explaination methods including "model-specific ...
+
+URL: https://pypi.org/project/nshap/
+Description:
+or the Faith-Shap interaction index of order 3. faith_shap = nshap. shapley_taylor (X_test [0,:], vfunc, n = 3) Functions that compute interaction indices have a common interface. They take 3 arguments. The data point for which we want to compute the explanation; The value function; The order of the interaction index
+
+URL: https://pypi.org/project/baby-shap/
+Description:
+Baby Shap is a stripped and opiniated version of SHAP (SHapley Additive exPlanations), a game theoretic approach to explain the output of any machine learning model by Scott Lundberg.It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions (see papers for details and citations).
+
+URL: https://pypi.org/project/explainerdashboard/
+Description:
+Project description. This package makes it convenient to quickly deploy a dashboard web app that explains the workings of a (scikit-learn compatible) fitted machine learning model. The dashboard provides interactive plots on model performance, feature importances, feature contributions to individual predictions, partial dependence plots, SHAP ...
+
+URL: https://pypi.org/project/timeshap/
+Description:
+TimeSHAP Explanation Methods. TimeSHAP offers several methods to use depending on the desired explanations. Local methods provide detailed view of a model decision corresponding to a specific sequence being explained. ... {2565-2573}, numpages = {9}, keywords = {SHAP, Shapley values, TimeSHAP, XAI, RNN, explainability}, location = {Virtual ...
+
+URL: https://pypi.org/project/survshap/
+Description:
+survshap Overview. The survshap package contains an implementation of the SurvSHAP(t) method, the first time-dependent explanation method for interpreting survival black-box models. It is based on SHapley Additive exPlanations (SHAP) but extends it to the time-dependent setting of survival analysis. SurvSHAP(t) is able to detect time-dependent variable effects and its aggregation determines ...
+
+URL: https://pypi.org/project/mshap/
+Description:
+final_shap_explanation = shap. Explanation (values = final_shap ["shap_vals"]. values, base_values = final_shap ["expected_value"], data = X, feature_names = X. columns,) shap. summary_plot (final_shap_explanation, X) Citations. For more information about SHAP values in general, you can visit theSHAP github page; If you use {mshap}, please cite ...
+
