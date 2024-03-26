@@ -1,0 +1,22 @@
+Visual Attribution Method  search results (Filter on: True, 15 results filtered out):
+ 
+URL: https://pypi.org/project/captum/
+Description: 
+Captum is a model interpretability and understanding library for PyTorch. Captum means comprehension in Latin and contains general purpose implementations of integrated gradients, saliency maps, smoothgrad, vargrad and others for PyTorch models. It has quick integration for models built with domain-specific libraries such as torchvision ...
+
+URL: https://pypi.org/project/Xplique/
+Description: 
+Project description. 🦊 Xplique (pronounced \ɛks.plik\) is a Python toolkit dedicated to explainability. The goal of this library is to gather the state of the art of Explainable AI to help you understand your complex neural network models. Originally built for Tensorflow's model it also works for PyTorch models partially.
+
+URL: https://pypi.org/project/transformers-interpret/
+Description: 
+Transformers Interpret is a model explainability tool designed to work exclusively with the 🤗 transformers package. In line with the philosophy of the Transformers package Transformers Interpret allows any transformers model to be explained in just two lines. Explainers are available for both text and computer vision models.
+
+URL: https://pypi.org/project/shap/
+Description: 
+Project description. SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions (see papers for details and citations).
+
+URL: https://pypi.org/project/path-explain/
+Description: 
+Path Explain. A repository for explaining feature importances and feature interactions in deep neural networks using path attribution methods. This repository contains tools to interpret and explain machine learning models using Integrated Gradients and Expected Gradients.In addition, it contains code to explain interactions in deep networks using Integrated Hessians and Expected Hessians ...
+

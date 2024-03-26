@@ -1,0 +1,50 @@
+feature attribution search results (Filter on: True, 8 results filtered out):
+ 
+URL: https://pypi.org/project/tcav/
+Description: 
+Typical interpretability methods show importance weights in each input feature (e.g, pixel). TCAV instead shows importance of high level concepts (e.g., color, gender, race) for a prediction class - this is how humans communicate! Typical interpretability methods require you to have one particular image that you are interested in understanding.
+
+URL: https://pypi.org/project/ferret-xai/
+Description: 
+🔍 Four established interpretability techniques based on Token-level Feature Attribution. Use them to find the most relevant words to your model output quickly. ⚖️ Six Faithfulness and Plausibility evaluation protocols. Benchmark any token-level explanation against these tests to guide your choice toward the most reliable explainer. 📝 ...
+
+URL: https://pypi.org/project/Xplique/
+Description: 
+There are 4 modules in Xplique, Attribution methods, Attribution metrics, Concepts, and Feature visualization. In particular, the attribution methods module supports a huge diversity of tasks:Classification, Regression, Object Detection, and Semantic Segmentation. For diverse data types: Images, Time Series, and Tabular data. The methods ...
+
+URL: https://pypi.org/project/attribench/
+Description: 
+AttriBench is a Pytorch-based implementation of several metrics for the evaluation of feature attribution maps and methods.AttriBench provides a functional and an object-oriented API for the computation of these metrics, along with a set of utility functions for the necessary preparations (e.g. computing attribution maps) as well as for the visualization of the results.
+
+URL: https://pypi.org/project/omnixai/
+Description: 
+OmniXAI includes a rich family of explanation methods integrated in a unified interface, which supports multiple data types (tabular data, images, texts, time-series), multiple types of ML models (traditional ML in Scikit-learn and deep learning models in PyTorch/TensorFlow), and a range of diverse explaination methods including "model-specific ...
+
+URL: https://pypi.org/project/quantus/
+Description: 
+Attribution Localization (Kohlbrenner et al., 2020): measures the ratio of positive attributions within the targeted object towards the total positive attributions Top-K Intersection (Theiner et al., 2021): computes the intersection between a ground truth mask and the binarized explanation at the top k feature locations
+
+URL: https://pypi.org/project/explainable-ai-sdk/
+Description: 
+Explanation, Attribution, and Visualization. The explain() function returns a list of Explanation objects -- one Explanation per input instance. This object makes it easier to interact with returned attributions. You can use the Explanation object to get feature importance and raw attributions, and to visualize attributions.
+
+URL: https://pypi.org/project/histocartography/
+Description: 
+feature attribution based graph interpretability techniques (e.g. GraphGradCAM, GraphGradCAM++, ... feature cube extraction to extract deep representations of individual patches depicting the image; cell graph explainer to generate an explanation to highlight salient nodes. It includes inference on a pretrained CG-GNN model followed by ...
+
+URL: https://pypi.org/project/captum/
+Description: 
+Captum is a model interpretability and understanding library for PyTorch. Captum means comprehension in Latin and contains general purpose implementations of integrated gradients, saliency maps, smoothgrad, vargrad and others for PyTorch models. It has quick integration for models built with domain-specific libraries such as torchvision ...
+
+URL: https://pypi.org/project/transformers-interpret/
+Description: 
+Transformers Interpret is a model explainability tool designed to work exclusively with the 🤗 transformers package. In line with the philosophy of the Transformers package Transformers Interpret allows any transformers model to be explained in just two lines. Explainers are available for both text and computer vision models.
+
+URL: https://pypi.org/project/exmatrix/
+Description: 
+The Explainable Matrix (ExMatrix) is a novel method for Random Forest (RF) interpretability based on the visual representations of logic rules. ExMatrix supports global and local explanations of RF models enabling tasks that involve the overview of models and the auditing of classification processes. The key idea is to explore logic rules by ...
+
+URL: https://pypi.org/project/text-explainability/
+Description: 
+text_explainability provides a generic architecture from which well-known state-of-the-art explainability approaches for text can be composed. This modular architecture allows components to be swapped out and combined, to quickly develop new types of explainability approaches for (natural language) text, or to improve a plethora of approaches by improving a single module.
+

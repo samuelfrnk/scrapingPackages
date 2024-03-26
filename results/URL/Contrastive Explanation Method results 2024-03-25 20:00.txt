@@ -1,0 +1,10 @@
+Contrastive Explanation Method search results (Filter on: True, 18 results filtered out):
+ 
+URL: https://pypi.org/project/aix360/
+Description: 
+Contrastive Explanations Method with Monotonic Attribute Functions (Luss et al., 2019) Exemplar based Contrastive Explanations Method; ... @misc{aix360-sept-2019, title = "One Explanation Does Not Fit All: A Toolkit and Taxonomy of AI Explainability Techniques", author = {Vijay Arya and Rachel K. E. Bellamy and Pin-Yu Chen and Amit Dhurandhar ...
+
+URL: https://pypi.org/project/text-explainability/
+Description: 
+Explanation methods included. text_explainability includes methods for model-agnostic local explanation and global explanation. Each of these methods can be fully customized to fit the explainees' needs. ... "Contrastive Explanations with Local Foil Trees". 2018 Workshop on Human Interpretability in Machine Learning (WHI 2018). 2018. Project ...
+

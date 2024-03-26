@@ -1,0 +1,62 @@
+Self-Organising Maps search results (Filter on: True, 5 results filtered out):
+ 
+URL: https://pypi.org/project/sklearn-som/
+Description: 
+A simple, planar self-organizing map with methods similar to clustering methods in Scikit Learn. sklearn-som is a minimalist, simple implementation of a Kohonen self organizing map with a planar (rectangular) topology. It is used for clustering data and performing dimensionality reduction.
+
+URL: https://pypi.org/project/quicksom/
+Description: 
+Self-Organizing Map. PyTorch implementation of a Self-Organizing Map. The implementation makes possible the use of a GPU if available for faster computations. It follows the scikit package semantics for training and usage of the model. It also includes runnable scripts to avoid coding. Example of a MD clustering using quicksom: Requirements and ...
+
+URL: https://pypi.org/project/som-learn/
+Description: 
+Implementation of Self-Organizing Map algorithm [1] that is compatible with scikit-learn API. It provides a wrapper class around Somoclu. Documentation. Installation documentation, API documentation, and examples can be found on the documentation. Dependencies. som-learn is tested to work under Python 3.6+. The dependencies are the following:
+
+URL: https://pypi.org/project/som-pbc/
+Description: 
+A simple self-organizing map implementation in Python with periodic boundary conditions. Self-organizing maps are also called Kohonen maps and were invented by Teuvo Kohonen.[1] They are an unsupervised machine learning technique to efficiently create spatially organized internal representations of various types of data. For example, SOMs are ...
+
+URL: https://pypi.org/project/simpsom/
+Description: 
+SimpSOM is a lightweight implementation of Kohonen Self-Organizing Maps (SOM) for Python 3, useful for unsupervised learning, clustering and dimensionality reduction. To install this package, clone this repository and install it with python setup.py install .
+
+URL: https://pypi.org/project/kohonen-som/
+Description: 
+Kohonen's Self-Organizing Map (SOM) Background. The original paper written by Teuvo Kohonen in 1990 was one of the first neural network model capable of unsupervised learning. Out of the different implementations of the algorithm, this one follows almost entirely the original paper. The update function is defined as
+
+URL: https://pypi.org/project/somap/
+Description: 
+Somap is a flexible, fast and scalable Self-Organizing Maps library in python. It allows you to define and run different flavors of SOMs (Kohonen, DSOM or your custom ones) on square or hexagonal 2D grid, with or without toroidal topology.
+
+URL: https://pypi.org/project/so-magic/
+Description: 
+So Magic is a Python package (import so_magic) that can infer Self-Organising Map models, out of structured data. To read more about the library (installation guide, features, how-to-use, etc) please read further in the So Magic documentation .
+
+URL: https://pypi.org/project/somvec/
+Description: 
+This is a vectorised python implementation of the Self-Organising Map (SOM) algorithm. It was created for use in the author's master dissertation and has now been released for anyone who might want to benefit from it. Please inform me of any additional functionality that might be desired.
+
+URL: https://pypi.org/project/GEMA/
+Description: 
+GEMA is a Python library which can be used to develop and train Self-Organizing Maps (SOMs). It also allows users to classify new individuals, obtain reports and visualize the information with interactive graphs. NOTE: GEMA has only been implemented in Python 3.0. Installation. Gema is now available on pip and conda: Pip: pip install GEMA
+
+URL: https://pypi.org/project/neural-map/
+Description: 
+NeuralMap. NeuralMap is new Python implementation of the well-known self organized artificial neural network, Self-Organizing Map (SOM), with the Relative Position (RP) Visualization method. The RP is a node-adaptive attribute that moves in a two dimensional space mimicking, at training stage, the movements of the SOM's codebook vectors in the ...
+
+URL: https://pypi.org/project/lightSOM/
+Description: 
+lightSOM. A Python Library for Self Organizing Map (SOM) The library implement fast online training. The implementation of the algorithm is carefully done through matrix calculations, such as scipy sparse matrix and numexpr for calculation of Euclidean distance. PCA (or RandomPCA (default)) initialization, using sklearn or random initialization.
+
+URL: https://pypi.org/project/tf-som/
+Description: 
+Tensorflow self-organizing maps. Locally competitive algorithms demonstrate superior convergence to their supervised counterparts over a suite of tasks. Try them yourself: pip install tf-som from.models import ConvNet # build unsupervised base unsupervised_base = ConvNet ...
+
+URL: https://pypi.org/project/somappy/
+Description: 
+Run the Self Organizing Map. The SOM can be run by calling the graphical user interface script (GUI) directly form the command line: >> somappy. The SOM can also be run from a python script : Examples/SOM-Driver-Example.py. A simple example of how to make calls to run an SOM in a script.
+
+URL: https://pypi.org/project/sparse-som/
+Description: 
+pip install sparse-som. Latest version. Released: Nov 27, 2020. Self-Organizing Maps for sparse inputs in python. Project description. Release history. Download files.
+

@@ -1,0 +1,50 @@
+Feature Importance Analysis search results (Filter on: True, 8 results filtered out):
+ 
+URL: https://pypi.org/project/anamod/
+Description: 
+Overview. anamod is a python library that implements model-agnostic algorithms for the feature importance analysis of trained black-box models. It is designed to serve the larger goal of interpretable machine learning by using different abstractions over features to interpret models. At a high level, anamod implements the following algorithms:
+
+URL: https://pypi.org/project/AutoFeatSelect/
+Description: 
+Automated Feature Selection & Feature Importance Calculation Framework. Automated Feature Selection & Importance. autofeatselect is a python library that automates and accelerates feature selection processes for machine learning projects.. It helps to calculate feature importance scores & rankings with several methods and also helps to detect and remove highly correlated variables.
+
+URL: https://pypi.org/project/dalex/
+Description: 
+The dalex package xrays any model and helps to explore and explain its behaviour, helps to understand how complex models are working. The main Explainer object creates a wrapper around a predictive model. Wrapped models may then be explored and compared with a collection of model-level and predict-level explanations.
+
+URL: https://pypi.org/project/BorutaShap/
+Description: 
+BorutaShap is a wrapper feature selection method which combines both the Boruta feature selection algorithm with shapley values. This combination has proven to out perform the original Permutation Importance method in both speed, and the quality of the feature subset produced. Not only does this algorithm provide a better subset of features ...
+
+URL: https://pypi.org/project/scikit-explain/
+Description: 
+Project description. scikit-explain is a user-friendly Python module for tabular-style machine learning explainability. Current explainability products includes. Feature importance: Single- and Multi-pass Permutation Importance ( Brieman et al. 2001 ], Lakshmanan et al. 2015) SHAP. First-order PD/ALE Variance ( Greenwell et al. 2018)
+
+URL: https://pypi.org/project/omnixai/
+Description: 
+OmniXAI includes a rich family of explanation methods integrated in a unified interface, which supports multiple data types (tabular data, images, texts, time-series), multiple types of ML models (traditional ML in Scikit-learn and deep learning models in PyTorch/TensorFlow), and a range of diverse explaination methods including "model-specific ...
+
+URL: https://pypi.org/project/featimp/
+Description: 
+Feature importance for machine learning. Skip to main content Switch to mobile version ... Tags python, data science, data analysis, exploratory data analysis, feature importance, beginner . Maintainers HasanBasri Classifiers. License. OSI Approved :: MIT License Operating System. OS Independent Programming Language ...
+
+URL: https://pypi.org/project/ReliefF/
+Description: 
+These algorithms excel at identifying features that are predictive of the outcome in supervised learning problems, and are especially good at identifying feature interactions that are normally overlooked by standard feature selection algorithms. The main benefit of ReliefF algorithms is that they identify feature interactions without having to ...
+
+URL: https://pypi.org/project/aggmap/
+Description: 
+Series (data. target)) # AggMap object definition, fitting, and saving mp = AggMap ... for CNN-based learning and important feature analysis. d, typical biomedical applications of AggMap in restructuring omics data into channel-split Fmaps for multi-channel CNN-based diagnosis and biomarker discovery ...
+
+URL: https://pypi.org/project/pytorch-tabnet/
+Description: 
+This can be especially useful when your preprocessing generates correlated or dependant features: like if you use a TF-IDF or a PCA on a text column. Note that feature importance will be exactly the same between features on a same group. Please also note that embeddings generated for a categorical variable are always inside a same group.
+
+URL: https://pypi.org/project/mrmr-selection/
+Description: 
+The peculiarity of mRMR is that it is a minimal-optimal feature selection algorithm. This means it is designed to find the smallest relevant subset of features for a given Machine Learning task. Selecting the minimum number of useful features is desirable for many reasons: memory consumption, time required, performance, explainability of results.
+
+URL: https://pypi.org/project/shapash/
+Description: 
+🔥 Features. Display clear and understandable results: plots and outputs use explicit labels for each feature and its values; Allow Data Scientists to quickly understand their models using a webapp to easily navigate between global and local explainability, and understand how the different features contribute: Live Demo Shapash-Monitor. Summarize and export local explanation
+

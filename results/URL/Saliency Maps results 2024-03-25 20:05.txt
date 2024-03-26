@@ -1,0 +1,62 @@
+Saliency Maps search results (Filter on: True, 5 results filtered out):
+ 
+URL: https://pypi.org/project/pysaliency/
+Description: 
+Pysaliency. Pysaliency is a python package for saliency modelling. It aims at providing a unified interface to both the traditional saliency maps used in saliency modeling as well as probabilistic saliency models. Pysaliency can evaluate most commonly used saliency metrics, including AUC, sAUC, NSS, CC image-based KL divergence, fixation based ...
+
+URL: https://pypi.org/project/saliency-maps-metrics/
+Description: 
+explanations: the saliency maps tensor of shape (Nx1xH'xW') class_to_explain: The index of the class to explain for each input image. The shape shoud be (N). The ADD class is used similarly: add = ADD () metric_dict = add (model,data,explanations,class_to_explain) mean = metric_dict ["add"] This resulting dictionary has only one entry add which ...
+
+URL: https://pypi.org/project/ferret-xai/
+Description: 
+Be sure to run the code in a Jupyter Notebook/Colab: the cell above will produce a nicely-formatted table to analyze the saliency maps. Features. ferret offers a painless integration with Hugging Face models and naming conventions. If you are already using the transformers library, you immediately get access to our Explanation and Evaluation API.
+
+URL: https://pypi.org/project/captum-rise/
+Description: 
+RISE is a post-hoc, local and model-agnostic interpretability method that can be used any type of image-like classification network to explain its decisions. RISE generates a pixel importance map ( saliency ), indicating how salient is each pixel with respect to the model's predictions. It estimates the sensitivity of each input feature by ...
+
+URL: https://pypi.org/project/captum/
+Description: 
+Captum is a model interpretability and understanding library for PyTorch. Captum means comprehension in Latin and contains general purpose implementations of integrated gradients, saliency maps, smoothgrad, vargrad and others for PyTorch models. It has quick integration for models built with domain-specific libraries such as torchvision ...
+
+URL: https://pypi.org/project/xaitk-saliency/
+Description: 
+The xaitk-saliency package is an open source, Explainable AI (XAI) framework for visual saliency algorithm interfaces and implementations, built for analytics and autonomy applications. See here for a more formal introduction to the topic of XAI and visual saliency explanations. This framework is a part of the Explainable AI Toolkit (XAITK).
+
+URL: https://pypi.org/project/saldet/
+Description: 
+The library comes with easy access to inference saliency maps from a folder with images. from saldet.experiment import inference inference (images_dir = ...
+
+URL: https://pypi.org/project/keras-explain/
+Description: 
+exp - explanation. Integrated gradients mark only features which contribute to the classification in a target class. Saliency from keras_explain.saliency import Saliency explainer = Saliency(model, layer=None) exp = explainer.explain(image, target_class) Parameters: model - Keras model which is explained; image - input which prediction is explained
+
+URL: https://pypi.org/project/gridfix/
+Description: 
+Our recently published manuscript [1] describes how this approach can be used to evaluate models of visual saliency above and beyond content-independent biases. Please also see [3] ... Apply these parcellations to collections of images or saliency maps (ImageSet) Calculate per-region fixation status (fixated/not fixated), count, and duration ...
+
+URL: https://pypi.org/project/dynamask/
+Description: 
+The models and baselines saliency maps are all saved in this folder. Now fit a mask for each of these time series by running: ... this question induces additional difficulties such as the necessity for the explanation to embody the time dependency and the large number of inputs. To address these challenges, we propose dynamic masks (Dynamask).
+
+URL: https://pypi.org/project/diffusers-interpret/
+Description: 
+Additionally, it is also possible to visualize pixel attributions of the input image as a saliency map: output. input_saliency_map. show () ... Note: Passing explanation_2d_bounding_box to the explainer will also change these values to explain a specific part of the output image. The attributions are always calculated for the model's input ...
+
+URL: https://pypi.org/project/ADGT/
+Description: 
+ADGT is a model interpretability and understanding library for PyTorch. ADGT means Attribution Draws Ground Truth contains general purpose implementations of Saliency, InputXGradient, Deconv, LRP, Guided_BackProp, GradCAM, SmoothGrad, DeepLIFT, IntegratedGradients, RectGrad, FullGrad, CAMERAS, GIG, and others for PyTorch models.
+
+URL: https://pypi.org/project/timm-vis/
+Description: 
+Saliency maps [1] Synthetic image generation [1] Adversarial attacks to fool models; Feature inversion [2] Grad-CAM [3] Deep Dream [4] Specific examples and details about the implementation and parameters of the above methods are described in details.ipynb. All of the above visualization techniques are discussed in this lecture. Installation
+
+URL: https://pypi.org/project/tf-keras-vis/
+Description: 
+Vanilla Saliency ( paper) SmoothGrad ( paper) tf-keras-vis is designed to be light-weight, flexible and ease of use. All visualizations have the features as follows: Support N-dim image inputs, that's, not only support pictures but also such as 3D images. Support batch wise processing, so, be able to efficiently process multiple input images.
+
+URL: https://pypi.org/project/saliency-detector/
+Description: 
+Saliency Detector. Pretrained Poolnet Saliency Detector for Inference. Free software: GNU General Public License v3; Documentation: https://saliency-detector.readthedocs.io. Features. This module allows inference with a pretrained poolnet saliency detector model. Credits
+

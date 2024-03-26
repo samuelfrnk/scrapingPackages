@@ -1,0 +1,34 @@
+Counterfactual Explanations search results (Filter on: True, 12 results filtered out):
+ 
+URL: https://pypi.org/project/dice-ml/
+Description: 
+The promise of counterfactual explanations. Being truthful to the model, counterfactual explanations can be useful to all stakeholders for a decision made by a machine learning model that makes decisions. Decision subjects: Counterfactual explanations can be used to explore actionable recourse for a person based on a decision received by a ML ...
+
+URL: https://pypi.org/project/jax-relax/
+Description: 
+ReLax (Recourse Explanation Library in Jax) is an efficient and scalable benchmarking library for recourse and counterfactual explanations, built on top of jax. By leveraging language primitives such as vectorization , parallelization , and just-in-time compilation in jax , ReLax offers massive speed improvements in generating individual (or ...
+
+URL: https://pypi.org/project/NICEx/
+Description: 
+Nearest Instance Counterfactual Explanations (NICE) NICE is an algorithm to generate Counterfactual Explanations for heterogeneous tabular data. Our approach exploits information from a nearest instance to speed up the search process and guarantee that an explanation will be found. Installation. Install NICE through Pypi. pip install NICEx or ...
+
+URL: https://pypi.org/project/rf-counterfactuals/
+Description: 
+Random forest counterfactuals. The RFC is a library specialised to be use in the domain of Explainable Artificial Intelligence (XAI). It allows to search for an explanation for pretrained Random Forest Classifier model (from scikit-learn library) in the form of counterfactual examples. The library also allow to specify constraints (frozen ...
+
+URL: https://pypi.org/project/discern-xai/
+Description: 
+DisCERN: Discovering Counterfactual Explanations using Relevance Features from Neighbourhoods. Installing DisCERN. DisCERN supports Python 3+. The stable version of DisCERN is available on PyPI: pip install discern-xai To install the dev version of DisCERN and its dependencies, clone this repo and run pip install from the top-most folder of the ...
+
+URL: https://pypi.org/project/genfact/
+Description: 
+Thus, counterfactual explanations provide statements as smallest changes required to alter certain predicted value or decision and it proves to be quite useful in finding causal relationships in data. Genfact is a model agnostic and gradient-free optimization method for generating counterfactuals. It can generate multiple counterfactuals at ...
+
+URL: https://pypi.org/project/cfnow/
+Description: 
+This package is integrated with CounterPlots, that allows you to graphically represent your counterfactual explanations! You can simply generate Greedy, CounterShapley, and Constellation charts for a given CF with: Greedy # Get the counterplots for the first CF and save as greedy.png cf_obj. generate_counterplots (0). greedy ('greedy.png ...
+
+URL: https://pypi.org/project/polyjuice-nlp/
+Description: 
+This repository contains code for generating counterfactual sentences as described in the following paper: Polyjuice: Generating Counterfactuals for Explaining, Evaluating, and Improving Models ... Please see the documents in the main Python file for more explanations. To perturb with more controls, ... (for augmentation and explanation ...
+
