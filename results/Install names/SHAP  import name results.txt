@@ -1,0 +1,14 @@
+shap: shap
+shap-app: shap-app
+corr-shap: corr-shap
+auto-shap: auto_shap
+scikit-explain: scikit-explain
+alibi: alibi
+shap2: shap2
+omnixai: omnixai
+nshap: nshap
+baby-shap: baby-shap
+explainerdashboard: explainerdashboard
+timeshap: timeshap
+survshap: survshap
+mshap: mshap

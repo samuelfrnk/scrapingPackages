@@ -1,0 +1,15 @@
+sklearn-som: sklearn-som
+quicksom: quicksom
+som-learn: Install som-learn
+som-pbc: som-pbc
+simpsom: simpsom
+kohonen-som: kohonen-som
+somap: somap
+so-magic: so-magic
+somvec: somvec
+GEMA: GEMA
+neural-map: neural_map
+lightSOM: lightSOM
+tf-som: tf-som
+somappy: somappy
+sparse-som: sparse-som

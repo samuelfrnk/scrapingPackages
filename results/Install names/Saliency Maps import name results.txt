@@ -1,0 +1,15 @@
+pysaliency: Install pysaliency
+saliency-maps-metrics: saliency-maps-metrics
+ferret-xai: Install ferret-xai
+captum-rise: captum-rise
+captum: captum
+xaitk-saliency: xaitk-saliency
+saldet: Install saldet
+keras-explain: keras-explain
+gridfix: gridfix
+dynamask: dynamask
+diffusers-interpret: diffusers-interpret
+ADGT: ADGT
+timm-vis: timm-vis
+tf-keras-vis: tf-keras-vis
+saliency-detector: saliency-detector

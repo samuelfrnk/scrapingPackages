@@ -1,0 +1,12 @@
+anamod: anamod
+AutoFeatSelect: Install AutoFeatSelect
+dalex: dalex
+BorutaShap: BorutaShap
+scikit-explain: scikit-explain
+omnixai: Install omnixai
+featimp: Install featimp
+ReliefF: ReliefF
+aggmap: Install aggmap
+pytorch-tabnet: pytorch-tabnet
+mrmr-selection: mrmr-selection
+shapash: Install shapash
