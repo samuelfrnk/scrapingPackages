@@ -1,0 +1,12 @@
+tcav: 1496 usages
+ferret-xai: 2 usages
+Xplique: 908 usages
+attribench: 109 usages
+omnixai: 204 usages
+quantus: 270 usages
+explainable-ai-sdk: 16 usages
+histocartography: 126 usages
+captum: 1064 usages
+transformers-interpret: 0 usages
+exmatrix: 0 usages
+text-explainability: 0 usages

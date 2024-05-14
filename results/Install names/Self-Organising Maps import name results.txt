@@ -1,6 +1,6 @@
 sklearn-som: sklearn-som
 quicksom: quicksom
-som-learn: Install som-learn
+som-learn: som-learn
 som-pbc: som-pbc
 simpsom: simpsom
 kohonen-som: kohonen-som

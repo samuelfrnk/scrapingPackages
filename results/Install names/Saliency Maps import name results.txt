@@ -1,10 +1,10 @@
-pysaliency: Install pysaliency
+pysaliency: pysaliency
 saliency-maps-metrics: saliency-maps-metrics
-ferret-xai: Install ferret-xai
+ferret-xai: ferret-xai
 captum-rise: captum-rise
 captum: captum
 xaitk-saliency: xaitk-saliency
-saldet: Install saldet
+saldet: saldet
 keras-explain: keras-explain
 gridfix: gridfix
 dynamask: dynamask

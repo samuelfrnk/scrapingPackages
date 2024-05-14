@@ -1,0 +1,14 @@
+shap: 1204 usages
+shap-app: 1 usages
+corr-shap: 0 usages
+auto_shap: 410 usages
+scikit-explain: 23 usages
+alibi: 1240 usages
+shap2: 134 usages
+omnixai: 204 usages
+nshap: 5216 usages
+baby-shap: 0 usages
+explainerdashboard: 237 usages
+timeshap: 141 usages
+survshap: 16 usages
+mshap: 6976 usages

@@ -4,12 +4,12 @@ from itertools import islice
 import urllib.parse
 import datetime
 
-
 hasFiltered = False
 filteredCount = 0
 
+
 def makeRequest(query):
-    url = f"https://duckduckgo.com/html/?q=site:pypi.org+ {query} +explanation"
+    url = f"https://duckduckgo.com/html/?q=site:pypi.org+ {query} + explanation"
     response = requests.get(url)
     return BeautifulSoup(response.text, 'html.parser')
 
@@ -45,6 +45,7 @@ def isValidPacket(description, api_token, query):
     else:
         print("request to chatgpt failed: {} (no filtering will be performed)".format(response.text))
         return True
+
 
 def filterURLs(urlsAndDescription, query):
     global hasFiltered
@@ -87,7 +88,6 @@ def filterSoup(requestedSoup):
     return url_descriptions
 
 
-
 def outPutResults(urlsAndDescriptionFiltered, query):
     descriptionsWished = input("Do you want the descriptions of the packets included as well ? (y/N): ").lower()
     now = datetime.datetime.now()
@@ -103,7 +103,6 @@ def outPutResults(urlsAndDescriptionFiltered, query):
     print(f"Results have been written to {file_name}")
 
 
-
 # This method coordinates the whole search
 def performScraping(query):
     requestedSoup = makeRequest(query)
@@ -113,7 +112,6 @@ def performScraping(query):
 
 
 def main():
-
     search_word = input("Enter search word: ")
     performScraping(search_word)
 
