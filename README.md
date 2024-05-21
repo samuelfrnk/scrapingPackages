@@ -9,10 +9,11 @@ It performs a duckduckGo search request, filters with the chatGPT API and saves 
 
 This tool automatically filters out duckduckGo search results with a chatGPT API request:
 
-**_Prompt:_**  
+**_Example Prompt:_**  
 Tell me if the following description of a python package
-    describes a package which implements the explainable AI algorithm {searchWord}
-    also answer binary either "yes" or "no". Description: \n {description}.
+    describes a package which implements the explainable AI algorithm LIME
+    answer binary either "yes" or "no". Description: \
+    Local Interpretable Model-Agnostic Explanations for machine learning classifiers ... 
 
 
 
